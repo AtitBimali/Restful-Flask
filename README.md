@@ -24,7 +24,7 @@ python3 app.py
     
 ## API Reference
 
-#### Get all Events
+#### Get all Tasks
 ```http
   GET /tasks
 ```
