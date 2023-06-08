@@ -29,7 +29,7 @@ python3 app.py
   GET /tasks
 ```
 
-#### Get single event
+#### Get single task
 
 ```http
   GET /tasks/{{task_id}}
@@ -37,7 +37,7 @@ python3 app.py
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `task_id`      | `uuid` | **Required**. Id of event to fetch |
+| `task_id`      | `uuid` | **Required**. Id of task to fetch |
 
 
 #### Update single task
@@ -58,7 +58,7 @@ python3 app.py
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `event_id`      | `uuid` | **Required**. Id of task to delete |
+| `task_id`      | `uuid` | **Required**. Id of task to delete |
 
 #### Get Tasks With Pagination
 
