@@ -74,6 +74,6 @@ python3 app.py
 
 ## Frameworks Used
 
- - [Flask](https://www.django-rest-framework.org/)
+ - [Flask](https://flask.palletsprojects.com/en/2.3.x/)
 
 
